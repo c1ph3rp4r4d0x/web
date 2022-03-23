@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#000000">
+
+  <title>Cipher Paradox</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+      <img src="img/general/loader.svg" alt="preloader image" class="preloader__img">
+    </div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="bg-dark-1">
+
+
+      <!-- header start -->
+      <header class="header -dark -sticky-dark js-header-dark js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a href="index.html" class="footer__logo text-white">
+              Cipher Paradox.
+            </a>
+            <a data-barba href="index.html">
+              <img class="header__logo__dark js-lazy" src="#" data-src="img/logo/logo-dark.png" alt="Logo">
+            </a>
+          </div>
+
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="index.html">
+                          Home
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Address
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          Earth
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Socials
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="https://github.com/c1ph3rp4r4d0x">Github</a>
+                        <a href="https://instagram.com/c1ph3rp4r4d0x">Instagram</a>
+                        <a href="https://twitter.com/cp4r4d0x">Twitter</a>
+                        <!-- <a href="https://instagram.com/c1ph3rp4r4d0x">YouTube</a> -->
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact Us
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">c1ph3rp4r4d0x@gmail.com</a>
+                        <a href="#">+1 (281) 768-5833</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- section start -->
+      <section class="masthead -type-4 js-masthead-type-4">
+        <!-- container start -->
+        <div class="container-fluid px-0">
+          <!-- row start -->
+          <div class="row no-gutters align-items-center h-full">
+            <div class="col-lg-3 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 sm:px-20 z-2">
+              <div class="masthead__content">
+                <div data-split="lines" data-split-page-reveal>
+                  <p class="masthead__subtitle uppercase text-sm tracking-md text-light mb-24 md:mb-16 js-subtitle">
+                    We Are
+                  </p>
+                </div>
+
+                <div data-split="lines" data-split-page-reveal class="mr-minus-lg md:mr-0">
+                  <h1 class="masthead__title fw-700 text-white js-title">
+                    More than a developer!
+                  </h1>
+                </div>
+
+                <div data-split="lines" data-split-page-reveal>
+                  <p class="masthead__text text-light mt-40 md:mt-20 js-text">
+                    We're not a computer person at all. We only know how to turn them on. We're not a programmer. We couldn't program our way out of a paper bag.
+                  </p>
+                </div>
+
+                <div class="masthead__button overflow-hidden mt-48 md:mt-32">
+                  <a href="#recent-works" class="button -md -white text-black js-button">
+                    View Recent Works
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1 z-1">
+              <div data-parallax="0.7" class="masthead__img overflow-hidden h-100vh ml-minus-sm md:ml-0">
+                <div data-parallax-target class="bg-image js-lazy js-image" data-bg="img/backgrounds/2.jpg"></div>
+                <div class="masthead__img__cover js-image-cover"></div>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+
+        <!-- ui-element start -->
+        <div class="ui-element -left js-ui md:d-none">
+          <div class="ui-element__social -column text-white js-bottom-left-links">         
+              <a href="https://twitter.com/cp4r4d0x">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com/c1ph3rp4r4d0x">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="https://github.com/c1ph3rp4r4d0x">
+                <i class="fa fa-github"></i>
+              </a>
+          </div>
+        </div>
+        <!-- ui-element end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-2xl layout-pb-md">
+        <!-- container start -->
+        <div data-anim-wrap class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+
+            <div class="col-xl-4 col-lg-5 col-md-8">
+              <div class="sectionHeading -sm">
+                <p class="sectionHeading__subtitle -light">
+                  about us
+                </p>
+                <h2 class="sectionHeading__title leading-sm text-white fw-600">
+                  We are here for 
+                </h2>
+              </div>
+            </div>
+
+
+            <div class="col-lg-7 md:mt-64 sm:mt-48">
+              <!-- row start -->
+              <div class="row x-gap-72 y-gap-60">
+
+                <div class="col-md-6">
+                  <div data-anim-child="counter" data-counter="40" data-counter-add="+" class="counter">
+                    <h2 class="number -lg -left fw-300 text-accent js-counter-num">
+                      0+
+                    </h2>
+                    <h3 class="text-xl fw-500 text-white mt-32">
+                      Website Created
+                    </h3>
+                    <!-- <p class="text-light mt-12">
+                      While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.
+                    </p> -->
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div data-anim-child="counter" data-counter="800" data-counter-add="+" class="counter">
+                    <h2 class="number -lg -left fw-300 text-accent js-counter-num">
+                      0+
+                    </h2>
+                    <h3 class="text-xl fw-500 text-white mt-32">
+                      Work Hours
+                    </h3>
+                    <!-- <p class="text-light mt-12">
+                      While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.
+                    </p> -->
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div data-anim-child="counter" data-counter="10" data-counter-add="+" class="counter">
+                    <h2 class="number -lg -left fw-300 text-accent js-counter-num">
+                      0+
+                    </h2>
+                    <h3 class="text-xl fw-500 text-white mt-32">
+                      Team Members
+                    </h3>
+                    <!-- <p class="text-light mt-12">
+                      While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.
+                    </p> -->
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div data-anim-child="counter" data-counter="70" data-counter-add="+" class="counter">
+                    <h2 class="number -lg -left fw-300 text-accent js-counter-num">
+                      0+
+                    </h2>
+                    <h3 class="text-xl fw-500 text-white mt-32">
+                      Complete Projects
+                    </h3>
+                    <!-- <p class="text-light mt-12">
+                      While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.
+                    </p> -->
+                  </div>
+                </div>
+
+              </div>
+              <!-- row end -->
+            </div>
+
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-lg layout-pb-md" id="recent-works">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between align-items-end">
+            <div class="col-lg-6">
+              <div class="sectionHeading -md">
+                <p class="sectionHeading__subtitle -light">Portfolio</p>
+                <h2 class="sectionHeading__title text-white">Recent Works</h2>
+              </div>
+            </div>
+
+            <div class="col-auto md:mt-24">
+              <!-- <button class="button -md -white text-black" onclick="window.location='portfolio.html'">
+                View All
+              </button> -->
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+
+        <!-- container start -->
+         <div class="container-wide">
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-md layout-pb-md">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+
+            <div class="col-lg-4 col-md-8">
+              <div class="sectionHeading -sm">
+                <p class="sectionHeading__subtitle -light">
+                  Experience
+                </p>
+                <h2 class="sectionHeading__title leading-sm text-white">
+                  We are here for
+                </h2>
+              </div>
+            </div>
+
+
+            <div class="col-lg-7">
+              <!-- row start -->
+              <div class="row x-gap-72 y-gap-72 md:mt-48">
+
+                <div class="col-md-6">
+                  <div class="serviceCard">
+                    <div class="serviceCard__content">
+                      <div class="d-flex align-items-center ml-minus-4">
+                        <div class="px-20 py-20 bg-dark-1 shadow-dark rounded-full">
+                          <i class="size-sm str-width-md text-accent" data-feather="edit"></i>
+                        </div>
+                      </div>
+                      <h3 class="serviceCard__title text-2xl fw-500 text-white mt-32">
+                        Web Development
+                      </h3>
+                      <!-- <p class="serviceCard__text text-light mt-12">
+                        Consider the vast of science and the doctrine of evolution. Every years beast.
+                      </p> -->
+                      <!-- <div class="mt-16">
+                        <a data-barba href="#" class="button -icon text-white">
+                          Know More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="serviceCard">
+                    <div class="serviceCard__content">
+                      <div class="d-flex align-items-center ml-minus-4">
+                        <div class="px-20 py-20 bg-dark-1 shadow-dark rounded-full">
+                          <i class="size-sm str-width-md text-accent" data-feather="sliders"></i>
+                        </div>
+                      </div>
+                      <h3 class="serviceCard__title text-2xl fw-500 text-white mt-32">
+                        Web App Development
+                      </h3>
+                      <!-- <p class="serviceCard__text text-light mt-12">
+                        Consider the vast of science and the doctrine of evolution. Every years beast.
+                      </p> -->
+                      <!-- <div class="mt-16">
+                        <a data-barba href="#" class="button -icon text-white">
+                          Know More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="serviceCard">
+                    <div class="serviceCard__content">
+                      <div class="d-flex align-items-center ml-minus-4">
+                        <div class="px-20 py-20 bg-dark-1 shadow-dark rounded-full">
+                          <i class="size-sm str-width-md text-accent" data-feather="feather"></i>
+                        </div>
+                      </div>
+                      <h3 class="serviceCard__title text-2xl fw-500 text-white mt-32">
+                        Scripts & Tools
+                      </h3>
+                      <!-- <p class="serviceCard__text text-light mt-12">
+                        Consider the vast of science and the doctrine of evolution. Every years beast.
+                      </p> -->
+                      <!-- <div class="mt-16">
+                        <a data-barba href="#" class="button -icon text-white">
+                          Know More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="serviceCard">
+                    <div class="serviceCard__content">
+                      <div class="d-flex align-items-center ml-minus-4">
+                        <div class="px-20 py-20 bg-dark-1 shadow-dark rounded-full">
+                          <i class="size-sm str-width-md text-accent" data-feather="move"></i>
+                        </div>
+                      </div>
+                      <h3 class="serviceCard__title text-2xl fw-500 text-white mt-32">
+                        Graphic Designing
+                      </h3>
+                      <!-- <p class="serviceCard__text text-light mt-12">
+                        Consider the vast of science and the doctrine of evolution. Every years beast.
+                      </p> -->
+                      <!-- <div class="mt-16">
+                        <a data-barba href="#" class="button -icon text-white">
+                          Know More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- row end -->
+            </div>
+
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+      <!-- footer start -->
+      <footer class="footer -type-1 bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-auto col-sm-12">
+                <a href="index.html" class="footer__logo text-white">
+                  Cipher Paradox.
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <h4 class="text-xl fw-500 text-white">
+                  Contact Us
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <p class="mt-8">c1ph3rp4r4d0x@gmail.com</p>
+                  <p class="mt-8">+1 (281) 768-5833</p>
+                </div>
+              </div>
+<!-- 
+              <div class="col-lg-auto col-sm-4">
+                <h4 class="text-xl fw-500 text-white">
+                  Links
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <div><a data-barba href="blog-1.html" class="button -underline">Blog</a></div>
+                  <div><a data-barba href="about-1.html" class="button -underline mt-4">Abous Us</a></div>
+                  <div><a data-barba href="#" class="button -underline mt-4">Shop</a></div>
+                  <div><a data-barba href="contact-1.html" class="button -underline mt-4">Contacts</a></div>
+                </div>
+              </div> -->
+
+              <div class="col-lg-auto col-auto">
+                <h4 class="text-xl fw-500 text-white">
+                  Follow us
+                </h4>
+
+                <div class="social -bordered mt-16 sm:mt-12">
+                  <a class="social__item text-white border-light" href="https://twitter.com/cp4r4d0x">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="https://instagram.com/c1ph3rp4r4d0x">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                  <!-- <a class="social__item text-white border-light" href="https://github.com/c1ph3rp4r4d0x">
+                    <i class="fa fa-youtube-play"></i>
+                  </a> -->
+                  <a class="social__item text-white border-light" href="https://github.com/c1ph3rp4r4d0x">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+
+          <div class="footer__bottom -light">
+            <!-- row start -->
+            <div class="row">
+              <div class="col">
+                <div class="footer__copyright">
+                  <p class="text-light">
+                    &copy; 2022 Cipher Paradox.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- footer end -->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
